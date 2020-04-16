@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	margin: 80px 0; 
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+body {
+	background-color: #221c5a;
+	color: white;
+	font-family: 'Karla';
+	font-size: 20px;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+
+.big-hero-text {
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 90vh;
+}
+
+.social {
+	float: right;
+	margin-top: -23px;
+}
+
+.header-text{
+	display: flex;
+	justify-content: center;
+	padding-top: 200px;
+	padding-left: 100px;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+
+.big-hero-text i{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+	cursor: pointer;
+	padding-left: 60px;
+}
+
+.arrow i{
+	font-size: 30px;
+	float: right;
+	padding: 30px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+   }
+
+li {
+	display: inline-block;
+	text-align: center;
+	margin-top: 60px;
+}
+
+a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 80%;
+	transition: color 0.2s;
+}
+
+nav a:hover{
+	color: #ff647f;
+
+}
+
+.social a:hover{
+	color: #ff647f;
+}
+
+.image {
+	width: 300px;
+	height: auto;
+	border-radius: 50%;
+}
+
+.sidebar {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 70px;
+	padding-top: 40px;
+}
+
+.side {
+	flex: 60%;
+	padding: 20px;
+}
+
+.side h1 {
+	margin-top: -30px;
+	font-size: 50px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.side h1::after {
+	content: " ";
+	display: block;
+	height: 2px;
+	width: 100px;
+	background-color: pink;
+	margin-top: 20px;
+
+}
+
+.side p {
+	text-align: justify;
+	font-size: 18px;
+	word-spacing: 0.2em;
+
+}
+
+.side p a {
+	color: pink;
+	cursor: pointer;
+	font-size: 18px;
+	font-style: 'karla';
+}
+
+.main {
+  flex: 30%;
+}
+
+.sidebar2 {
+	display: flex;
+	flex-wrap: wrap;
+	background-repeat: no-repeat;	
+	background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(developer2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+.sidebar2 h1{
+	margin-top: 30px;
+	font-size: 40px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.sidebar2 h1::after {
+
+  display: block;
+  height: 2px;
+  background-color: #ff647f;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.sidebar2 p{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 50px;
+	word-spacing: 0.2em;
+}
+
+.myform h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.myform .form1{
+	padding-bottom: 30px;
+}
+
+.myform{
+	width: 60%;
+	margin: auto;
+	margin-top: -10px;
+	padding: 2.5rem;
+	padding-top: 20px;
+	font-family: 'Karla';
+}
+
+
+.myform input{
+	padding: 16px;
+	width: 100%;
+	font-size: 100%;
+	height: 50px;
+	background-color: #edf2f7;
+	color: #ff647f;
+	font-family: 'Karla';
+	border-radius: .25rem;
+	border:none;
+}
+
+.text-gray {
+    color: #707275;
+}
+
+.myform select{
+	background-color: #edf2f7;
+	padding: 10px;
+	width: 100%;
+	font-size: 100%;
+	height: 50px;
+	font-family: 'Karla';
+}
+
+.texting{
+	color: white;
+	font-size: 1.3rem;
+	margin-bottom: 4px;
+}
+
+
+.input-text {
+	background-color: #edf2f7;
+	color: #;
+}
+
+.lastText {
+	background-color:#ff647f;
+	color: white;
+	text-transform: uppercase;
+	padding: 20px 40px 16px;
+	width: 30%;
+    border: none;
+    cursor: pointer;
+    font-family: 'Karla';
+    font-size: 1rem;
+
+}
